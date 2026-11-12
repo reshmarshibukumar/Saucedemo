@@ -14,7 +14,7 @@ public class LoginTest_Saucedemo extends BaseClass_SauceDemo
 {
 	@Test(priority=1)
 	public void validLogin()
-	{
+	{   
 		LoginSauceDemo_PageObject obj=new LoginSauceDemo_PageObject(driver);
 		obj.enterUsername("standard_user");
 		obj.enterPassword("secret_sauce");

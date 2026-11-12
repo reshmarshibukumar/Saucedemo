@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-06T18:45:24 IST" name="Default suite" finished-at="2026-11-06T18:45:27 IST" duration-ms="3121">
+  <suite started-at="2026-11-12T16:06:21 IST" name="Default suite" finished-at="2026-11-12T16:06:29 IST" duration-ms="7918">
     <groups>
     </groups>
-    <test started-at="2026-11-06T18:45:24 IST" name="Default test" finished-at="2026-11-06T18:45:27 IST" duration-ms="3121">
+    <test started-at="2026-11-12T16:06:21 IST" name="Default test" finished-at="2026-11-12T16:06:29 IST" duration-ms="7918">
       <class name="testClass.LoginTest_Saucedemo">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:24 IST" name="browserSetup" finished-at="2026-11-06T18:45:25 IST" duration-ms="1370" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:21 IST" name="browserSetup" finished-at="2026-11-12T16:06:28 IST" duration-ms="6333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:25 IST" name="urlLaunch" finished-at="2026-11-06T18:45:26 IST" duration-ms="722" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:28 IST" name="urlLaunch" finished-at="2026-11-12T16:06:28 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="validLogin()[pri:1, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:26 IST" name="validLogin" finished-at="2026-11-06T18:45:26 IST" duration-ms="368" status="PASS">
+        <test-method signature="validLogin()[pri:1, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:28 IST" name="validLogin" finished-at="2026-11-12T16:06:29 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:26 IST" name="urlLaunch" finished-at="2026-11-06T18:45:26 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:29 IST" name="urlLaunch" finished-at="2026-11-12T16:06:29 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="invalidUsername()[pri:2, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:26 IST" name="invalidUsername" finished-at="2026-11-06T18:45:26 IST" duration-ms="252" status="PASS">
+        <test-method signature="invalidUsername()[pri:2, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:29 IST" name="invalidUsername" finished-at="2026-11-12T16:06:29 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginTest_Saucedemo@5cc69cfe]" started-at="2026-11-06T18:45:27 IST" name="tearDown" finished-at="2026-11-06T18:45:27 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginTest_Saucedemo@5db4c359]" started-at="2026-11-12T16:06:29 IST" name="tearDown" finished-at="2026-11-12T16:06:29 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -6,13 +6,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+
+
 public class BaseClass_SauceDemo {
 	
 	protected WebDriver driver;
 	
 	@BeforeClass
-	public void browserSetup()
+	public void browserSetup() throws Exception
 	{
+		
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 	}
@@ -24,8 +27,9 @@ public class BaseClass_SauceDemo {
 	}
 	
 	@AfterClass
-	public void tearDown()
+	public void tearDown() throws Exception
 	{
+		
 		driver.quit();
 	}
 	
